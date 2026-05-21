@@ -85,11 +85,11 @@ nav{position:fixed;top:0;width:100%;z-index:200;display:flex;align-items:center;
 .section-title{font-family:'Orbitron',monospace;font-size:clamp(1.5rem,4vw,2.6rem);font-weight:800;color:var(--white);letter-spacing:.06em;margin-bottom:3rem}
 
 /* ── ABOUT ── */
-.about-grid{display:grid;grid-template-columns:260px 1fr;gap:4rem;align-items:start}
+.about-grid{display:grid;grid-template-columns:584px 1fr;gap:4rem;align-items:start}
 @media(max-width:768px){.about-grid{grid-template-columns:1fr}}
-.profile-card{position:relative;width:260px;height:260px;border:1px solid var(--b);background:var(--card);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:visible;clip-path:polygon(22px 0%,100% 0%,100% calc(100% - 22px),calc(100% - 22px) 100%,0% 100%,0% 22px);transition:box-shadow .4s;max-width:260px}
+.profile-card{position:relative;width:584px;height:749px;border:1px solid var(--b);background:var(--card);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:visible;clip-path:polygon(22px 0%,100% 0%,100% calc(100% - 22px),calc(100% - 22px) 100%,0% 100%,0% 22px);transition:box-shadow .4s;max-width:584px}
 .profile-card:hover{box-shadow:0 0 50px #4fc3f728,inset 0 0 30px #4fc3f708}
-#profile-img{width:260px;height:260px;object-fit:cover;display:block;cursor:pointer;transition:transform .5s cubic-bezier(.23,1.3,.32,1),box-shadow .5s;transform-style:preserve-3d}
+#profile-img{width:584px;height:749px;object-fit:cover;display:block;cursor:pointer;transition:transform .5s cubic-bezier(.23,1.3,.32,1),box-shadow .5s;transform-style:preserve-3d}
 #profile-img.img-3d-active{transform:scale(1.22) perspective(700px) rotateY(14deg) rotateX(-7deg);box-shadow:16px 24px 70px #4fc3f760,-10px -10px 50px #7c4dff50;position:relative;z-index:100}
 .about-text p{font-size:1.05rem;line-height:1.85;color:var(--text);margin-bottom:1.2rem}
 .about-text p span{color:var(--b)}
@@ -236,7 +236,7 @@ footer{position:relative;z-index:10;border-top:1px solid #4fc3f710;padding:2.5re
   <div class="about-grid fade-up">
     <div>
       <div class="profile-card">
-        <img id="profile-img" src="elckan.jpeg" alt="Elckan Jiby" onclick="toggleImg3D(event)"/>
+        <img id="profile-img" src="profile.jpg" alt="Elckan Jiby" onclick="toggleImg3D(event)"/>
       </div>
     </div>
 
